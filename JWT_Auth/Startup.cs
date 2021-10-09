@@ -48,7 +48,7 @@ namespace JWT_Auth
                 };
             });
 
-            services.AddSingleton<IJwtAuth>(new Authc(key));
+            services.AddSingleton<IJwtAuth>(new Auth(key));
             services.AddControllers(); // silinebilir
             services.AddSwaggerGen(c =>
             {

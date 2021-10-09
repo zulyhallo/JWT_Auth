@@ -53,16 +53,16 @@ namespace JWT_Auth.Controllers
         }
 
         
-        // PUT api/<MemberController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<MemberController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+      // // PUT api/<MemberController>/5
+      // [HttpPut("{id}")]
+      // public void Put(int id, [FromBody] string value)
+      // {
+      // }
+      //
+      // // DELETE api/<MemberController>/5
+      // [HttpDelete("{id}")]
+      // public void Delete(int id)
+      // {
+      // }
     }
 }

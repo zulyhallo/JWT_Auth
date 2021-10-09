@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 
 namespace JWT_Auth
 {
-    public class Authc : IJwtAuth
+    public class Auth : IJwtAuth
     {
        
         private readonly string username = "ZEZE";
         private readonly string password = "1234";
         private readonly string key;
-        public Authc(string key)
+        public Auth(string key)
         {
             this.key = key;
         }
