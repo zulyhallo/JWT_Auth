@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using JWT_Auth.Models;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
 
 namespace JWT_Auth.Controllers
 {
@@ -18,9 +18,9 @@ namespace JWT_Auth.Controllers
         private readonly IJwtAuth jwtAuth;
         private readonly List<Member> lstMember = new List<Member>()
         {
-            new Member{Id=1, Name="Kirtesh" },
-            new Member {Id=2, Name="Nitya" },
-            new Member{Id=3, Name="pankaj"}
+            new Member{Id=1, Name="ZEZE" },
+            new Member {Id=2, Name="NANA" },
+            new Member{Id=3, Name="NİNA"}
         };
         public MemberController(IJwtAuth jwtAuth)
         {
